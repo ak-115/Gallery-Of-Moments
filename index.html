@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery of Moments</title>
+    <link rel="icon" href="/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        Gallery of Moments
+    </div>
+    <gallery>
+        <div class="grid"><img src="img/1.jpg" class="n" onclick="openLightbox(this.src)"></div>
+        <div class="grid"><img src="img/2.jpg" class="o" onclick="openLightbox(this.src)"></div>
+        <div class="grid"><img src="img/3.jpg" class="n" onclick="openLightbox(this.src)"></div>
+        <div class="grid"><img src="img/4.jpg" class="n" onclick="openLightbox(this.src)"></div>
+        <div class="grid"><img src="img/5.jpg" class="n" onclick="openLightbox(this.src)"></div>
+        <div class="grid"><img src="img/6.jpg" class="n" onclick="openLightbox(this.src)"></div>
+        <div class="grid"><img src="img/7.jpg" class="n" onclick="openLightbox(this.src)"></div>
+        <div class="grid"><img src="img/8.jpg" class="n" onclick="openLightbox(this.src)"></div>
+        <div class="grid"><img src="img/9.jpg" class="n" onclick="openLightbox(this.src)"></div>
+        <div class="grid"><img src="img/10.jpg" class="n" onclick="openLightbox(this.src)"></div>
+        <div class="grid"><img src="img/11.jpg" class="n" onclick="openLightbox(this.src)"></div>
+    </gallery>
+    
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
